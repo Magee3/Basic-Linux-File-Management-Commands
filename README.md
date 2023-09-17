@@ -43,6 +43,17 @@ As you can see even any string with "fail" are populated. It is a good habbit to
 didn't know existed.
 
 ### Stage 3: Manipulate files and directories
+
+We will go over copying files, we will be using user1's account. We will copy the /opt/files to our home directory.
+
+Run: cp -R /opt/files ~    (the -R switch copies everything in the folder files, subfolders, etc. The ~ is the home directory)
+
 ![Pt 6](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/2f9c7b2b-aed2-48e3-8026-3bb077179e3d)
+
+We then moved into the files location and viewed it contents. It is good practice to type ls after every movement, or manipulation of files to make sure it is doing what you told it to do.
+
+### Stage 3: Create a new directory and move specifics files into it
+
 ![Pt 7](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/717e9a5a-7797-4cd4-a949-02573fce8e74)
+
 ![Pt 8](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/0aa17f7a-2284-4520-87b7-132b2651afed)
