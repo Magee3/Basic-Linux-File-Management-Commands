@@ -1,6 +1,7 @@
 # Basic-Linux-File-Management-Commands
 
-![Basic Linux File Management Commands](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/5249823e-2af3-4c64-bd3b-fd001dfb1366)
+![Basic Linux File Management Commands](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/b9a741e6-2683-4101-9fcc-3c52ce405909)
+
 
 ### Stage 1: Displaying only the first and last lines of a log
 
