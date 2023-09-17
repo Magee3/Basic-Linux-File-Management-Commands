@@ -55,7 +55,7 @@ Run: cp -R /opt/files ~    (the -R switch copies everything in the folder files,
 
 We then moved into the files location and viewed it contents. It is good practice to type ls after every movement, or manipulation of files to make sure it is doing what you told it to do.
 
-### Stage 3: Create a new directory and move specifics files into it
+### Stage 4: Create a new directory and move specifics files into it
 
 You can create new directories and able to copy files into them using a terminal. To make a directory use the "mkdir" command.
 
@@ -76,7 +76,7 @@ Run: touch File1.txt
 ![Pt 9 5](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/7616e9ed-aa6d-4cf9-a2aa-024adccd61a7)
 
 
-### Stage 4: Deleting the files directory and its contents as it is no longer needed
+### Stage 5: Deleting the files directory and its contents as it is no longer needed
 
 When deleting a directory we use rmdir but, this will not work if the directory has files inside.
 
