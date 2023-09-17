@@ -23,8 +23,26 @@ Run: tail /var/log/dnf.log
 ![Pt 3](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/2c418b0f-f001-4cba-909e-2e7ccad04b9c)
 
 At the end of user1's logs we see that the debugging proccess has completed.
+
+### Stage 2: Use filter commands to make log analysis easier
+
+The grep command matches strings of characters, making it useful to search for specific items in a long list.
+We will be viewing user2's logs for this example.
+
+Run: cat /var/log/dnf.log | grep "timer"
+
 ![Pt 4](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/8898a23d-0d52-441a-a5eb-210cc7bb2984)
+
+As you see any log that contains the string "timer" will populate our terminal. You can also add the " -i " switch for grep to remove case sensitivity.
+
+Run: cat /var/log/dnf.log | grep -i "fail"
+
 ![Pt 5](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/5553828f-46a3-4ec6-97d0-a7bb850372d1)
+
+As you can see even any string with "fail" are populated. It is a good habbit to add the " -i " switch when grepping because you may miss something you
+didn't know existed.
+
+### Stage 3: Manipulate files and directories
 ![Pt 6](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/2f9c7b2b-aed2-48e3-8026-3bb077179e3d)
 ![Pt 7](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/717e9a5a-7797-4cd4-a949-02573fce8e74)
 ![Pt 8](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/0aa17f7a-2284-4520-87b7-132b2651afed)
