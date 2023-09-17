@@ -54,6 +54,29 @@ We then moved into the files location and viewed it contents. It is good practic
 
 ### Stage 3: Create a new directory and move specifics files into it
 
+You can create new directories and able to copy files into them using a terminal. To make a directory use the "mkdir" command.
+
+Run: mkdir documents
+
 ![Pt 7](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/717e9a5a-7797-4cd4-a949-02573fce8e74)
 
+Now we will copy the contents that are in the "file" directory into the "documents" directory.
+
+Run: cp * ../documents/   (copies everything in the directory you are currently in and place them into the documents folder)
+
 ![Pt 8](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/0aa17f7a-2284-4520-87b7-132b2651afed)
+
+### Stage 4: Deleting the files directory and its contents as it is no longer needed
+
+When deleting a directory we use rmdir but, this will not work if the directory has files inside.
+
+Run: rm -rf files 
+
+The -r switch deletes everything
+the -f switch deletes without a confirmation BECAREFUL using this switch.
+
+![Pt 10](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/40c0cb25-ceaa-47c0-af23-24a258e02e1e)
+
+
+Fin.
+
