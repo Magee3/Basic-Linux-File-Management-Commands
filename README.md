@@ -69,6 +69,13 @@ Run: cp * ../documents/   (copies everything in the directory you are currently 
 
 ![Pt 8](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/0aa17f7a-2284-4520-87b7-132b2651afed)
 
+You can also create blank files by using the "touch" command.
+
+Run: touch File1.txt
+
+![Pt 9 5](https://github.com/Magee3/Basic-Linux-File-Management-Commands/assets/134301259/7616e9ed-aa6d-4cf9-a2aa-024adccd61a7)
+
+
 ### Stage 4: Deleting the files directory and its contents as it is no longer needed
 
 When deleting a directory we use rmdir but, this will not work if the directory has files inside.
